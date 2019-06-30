@@ -1,8 +1,5 @@
 package recursion;
 
-/**
- * 递归实现
- */
 public class Factorial {
 
     private static int fact(int x){
@@ -13,7 +10,7 @@ public class Factorial {
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println(fact(5));
     }
 }
